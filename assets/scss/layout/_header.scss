@@ -20,6 +20,14 @@ header{
         ul{
             display: flex;
             align-items: center;
+            >a{
+                display: none;
+                font-size: 35px;
+                color: grey;
+                border: solid 1px grey;
+                padding: 8px 12px;
+                border-radius: 6px;
+            }
             li{
                 padding-left: 80px;
             }

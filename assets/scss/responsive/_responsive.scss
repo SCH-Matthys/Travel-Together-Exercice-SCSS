@@ -1,0 +1,190 @@
+@media screen and (max-width:(1900px)) {
+    footer{
+        padding: 350px 5% 30px;
+    }
+}
+@media screen and (max-width:(1800px)) {
+    #s-features > div:nth-of-type(1) p{
+        padding-bottom: 70px;
+    }
+    footer{
+        padding: 450px 5% 30px;
+    }
+}
+@media screen and (max-width:(1450px)) {
+    #s-lorem article{
+        padding: 100px 100px;
+        justify-content: space-between;
+    }
+    #s-lorem article > div:nth-of-type(2){
+        position: static;
+        width: 350px;
+    }
+    #s-features{
+        height: 100vh;
+    }
+    footer{
+        padding: 100px 5% 30px;
+    }
+}
+@media screen and (max-width:(1400px)) {
+    footer{
+        padding: 150px 5% 30px;
+    }
+}
+@media screen and (max-width:(1250px)) {
+    header nav ul li{
+        padding-left: 50px;
+    }
+    #s-features > article:nth-of-type(1) > div:nth-of-type(1) h2{
+        width: 100%;
+    }
+    footer{
+        padding: 300px 5% 30px;
+    }
+}
+@media screen and (max-width:(1050px)) {
+    header nav ul li{
+        display: none;
+    }
+    header nav ul > a{
+        display: block;
+    }
+    #s-lorem article{
+        padding: 80px 80px;
+    }
+    #s-lorem article div:nth-of-type(1) h1{
+        font-size: 48px;
+    }
+    #s-lorem article > div:nth-of-type(2){
+        width: 100%;
+    }
+    #s-services > div{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:(965px)){
+    #s-features{
+        height: 110vh;
+        .btn{
+            font-size: 20px;
+        }
+    }
+    footer nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    footer > div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+    }
+} 
+@media screen and (max-width:(800px)){
+    footer{
+        padding: 420px 5% 30px;
+    }
+}
+// //////////////////////////////////////////////////////////////////
+@media screen and (max-width:(750px)){
+    header nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    #s-lorem{
+        padding: 16px 2%;
+    }
+    #s-lorem article{
+        padding: 20px 20px 40px;
+    }
+    #s-lorem article div:nth-of-type(1){
+        width: 100%;
+    }
+    #s-lorem article > div:nth-of-type(2){
+        display: none;
+    }
+
+
+    #s-services{
+        padding: 20px 2%
+    }
+    #s-services h2{
+        text-align: center;
+    }
+    #s-services > div{
+        flex-direction: column;
+        height: auto;
+    }
+    #s-services > div > div:nth-of-type(1){
+        width: 100%;
+        flex-direction: column;
+        height: 45vh;
+        // 1370
+    }
+    #s-services article{
+        width: 100%;
+        height: 45vh;
+    }
+    #s-services > div > div:nth-of-type(2){
+        width: 100%;
+        height: 90vh;
+    }
+    #s-services > div > div:nth-of-type(2)  article{
+        height: 45vh;
+    }
+
+    #s-features{
+        padding: 20px 2%;
+        height: auto;
+    }
+    #s-features h2{
+        text-align: center;
+    }
+    #s-features > div:nth-of-type(1){
+        flex-direction: column;
+        gap: 0px;
+    }
+    #s-features > div:nth-of-type(1) article{
+        width: 100%;
+    }
+    #s-features > article:nth-of-type(1){
+        padding: 20px 20px 40px;
+        flex-direction: column;
+    }
+    #s-features > article:nth-of-type(1) > div:nth-of-type(1){
+        width: 100%;
+    }
+    #s-features > article:nth-of-type(1) > div:nth-of-type(1) h2{
+        text-align: center;
+    }
+    #s-features > article:nth-of-type(1) > div:nth-of-type(1) p{
+        text-align: center;
+        width: 100%;
+    }
+    #s-features > article:nth-of-type(1) > div:nth-of-type(2){
+        width: auto;
+    }
+
+
+    footer{
+        padding: 20px 2%;
+    }
+    footer > nav{
+        width: 100%;
+    }
+    footer nav ul{
+        flex-direction: column;
+    }
+    footer nav ul li{
+        padding: 0px;
+    }
+}
