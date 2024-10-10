@@ -1,5 +1,78 @@
 @use "../../abstract/variables" as var;
+@use "../../base/typography" as font;
 
 #s-features{
+    padding: 100px 5%;
     height: 60vh;
+    background-image: url(../img/wave.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    >h2{
+        font-size: 64px;
+        padding: 0px 20px 80px;
+        text-align: end;
+    }
+    >div:nth-of-type(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        article{
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        div > i{
+            color: var.$primary-color;
+            font-size: 80px;
+        }
+        h4{
+            text-align: center;
+            font-size: 35px;
+            font-weight: bold;
+            padding: 16px;
+        }
+        p{
+            font-family: Lato-light;
+            text-align: center;
+            width: 85%;
+            font-size: 20px;
+            padding-bottom: 100px;
+        }
+    }
+    >article:nth-of-type(1){
+        background-color: var.$primary-color;
+        border-radius: 20px;
+        display: flex;
+        padding: 100px 100px 60px;
+        bottom: -350px;
+        >div:nth-of-type(1){
+            width: 60%;
+            h2{
+                width: 70%;
+                text-align: start;
+                color: var.$text-color-white;
+                font-size: 50px;
+                font-weight: lighter;
+            }
+            p{
+                font-family: Lato-light;
+                line-height: 35px;
+                width: 85%;
+                font-size: 20px;
+                color: var.$text-color-white;
+                padding: 16px 0px;
+            }
+        }
+        >div:nth-of-type(2){
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+    }
 }

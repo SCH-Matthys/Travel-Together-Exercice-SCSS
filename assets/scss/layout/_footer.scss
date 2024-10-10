@@ -1,0 +1,76 @@
+@use "../abstract/variables" as var;
+@use "../base/typography";
+
+footer{
+    background-color: var.$footer-color;
+    padding: 300px 5% 30px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        border-bottom: solid 2px grey;
+        >div{
+            width: 300px;
+            height: 100px;
+            a{
+                background-image: url(../img/Logo-white.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                padding-left: 40px;
+            }
+            li>a{
+                font-family: Lato-light;
+                font-size: 24px;
+                color: white;
+                transition: 0.2s;
+                &:hover{
+                    color: var.$primary-color;
+                }
+            }
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        p:not(:first-child){
+            font-family: Lato-light;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            span{
+                font-weight: bold;
+            }
+        }
+        >div>ul{
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            li{
+                padding-left: 10px;
+                a{
+                    color: white;
+                    font-size: 30px;
+                    padding: 4px 8px;
+                    transition: 0.2s;
+                    &:hover{
+                        color: var.$primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

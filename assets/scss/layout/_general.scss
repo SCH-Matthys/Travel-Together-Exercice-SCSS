@@ -1,5 +1,9 @@
 @use "../base/typography";
 
+html {
+	scroll-behavior: smooth;
+}
 body{
     font-family: Lato;
+	scroll-behavior: smooth;
 }
