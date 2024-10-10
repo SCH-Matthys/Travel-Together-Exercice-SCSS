@@ -1,0 +1,11 @@
+// Base ////////////////////////////////////////
+@use "base/typography";
+@use "base/reset";
+@use "components/buttons";
+// Reglage de la page //////////////////////////
+@use "layout/general";
+// Architecture de la page /////////////////////
+@use "layout/header";
+@use "layout/main/s-lorem";
+@use "layout/main/s-services";
+@use "layout/main/s-features";

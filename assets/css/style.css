@@ -1,0 +1,223 @@
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  padding: 14px 16px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 4px 0px rgb(58, 58, 58);
+  transition: 0.2s;
+}
+.btn:hover {
+  color: #E7816B;
+  box-shadow: 0px 0px 4px 0px rgb(0, 0, 0);
+}
+
+body {
+  font-family: Lato;
+}
+
+header {
+  padding: 16px 5%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 32px;
+}
+header nav div {
+  width: 250px;
+  height: 75px;
+}
+header nav div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  padding-left: 80px;
+}
+header nav ul li > a {
+  font-size: 24px;
+  color: grey;
+}
+
+#s-lorem {
+  padding: 16px 5%;
+}
+#s-lorem article {
+  background-color: #E7816B;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0px 0px 4px 2px grey;
+  padding: 100px 100px 0px 80px;
+}
+#s-lorem article div:nth-of-type(1) {
+  width: 60%;
+}
+#s-lorem article div:nth-of-type(1) h1 {
+  color: white;
+  font-size: 64px;
+}
+#s-lorem article div:nth-of-type(1) p {
+  line-height: 35px;
+  width: 90%;
+  font-size: 18px;
+  color: white;
+  padding: 40px 0px 64px;
+}
+#s-lorem article > div:nth-of-type(2) {
+  background-image: url(../img/mockup-travel-iphone.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 650px;
+}
+
+#s-services {
+  padding: 100px 5%;
+}
+#s-services h2 {
+  font-size: 64px;
+  padding: 20px;
+}
+#s-services > div {
+  display: flex;
+  height: 60vh;
+  gap: 10px;
+}
+#s-services > div > div:nth-of-type(1) {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/homme-assis-batiment.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 2px grey;
+}
+#s-services > div > div:nth-of-type(1) h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#s-services > div > div:nth-of-type(1) a {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+#s-services > div > div:nth-of-type(1) a span {
+  font-weight: bold;
+  color: #E7816B;
+}
+#s-services > div > div:nth-of-type(1) a:hover {
+  color: #E7816B;
+}
+#s-services > div > div:nth-of-type(2) {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/passport.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 2px grey;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(1) h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(1) a {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(1) a span {
+  font-weight: bold;
+  color: #E7816B;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(1) a:hover {
+  color: #E7816B;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/montgolfiere.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 2px grey;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(2) h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(2) a {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(2) a span {
+  font-weight: bold;
+  color: #E7816B;
+}
+#s-services > div > div:nth-of-type(2) > article:nth-of-type(2) a:hover {
+  color: #E7816B;
+}
+
+#s-features {
+  height: 60vh;
+}
+
+/*# sourceMappingURL=style.css.map */
