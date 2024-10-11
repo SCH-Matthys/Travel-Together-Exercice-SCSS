@@ -19,18 +19,22 @@ header{
                 background-repeat: no-repeat;
             }
         }
+        >div:last-child{
+            display: flex;
+            align-items: center;
+        }
+        >div:last-child>i{
+            display: none;
+            font-size: 35px;
+            color: grey;
+            border: solid 1px grey;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
         ul{
             display: flex;
-            flex-direction: row;
             align-items: center;
-            >a>i{
-                display: none;
-                font-size: 35px;
-                color: grey;
-                border: solid 1px grey;
-                padding: 8px 12px;
-                border-radius: 6px;
-            }
+            justify-content: center;
             li{
                 padding-left: 80px;
             }
