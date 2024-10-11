@@ -50,6 +50,11 @@
     header nav ul > a{
         display: block;
     }
+    header nav ul:hover{
+        header nav ul li{
+            display: block;
+        }
+    }
     #s-lorem article{
         padding: 80px 80px;
     }
@@ -90,7 +95,9 @@
         padding: 420px 5% 30px;
     }
 }
+
 // //////////////////////////////////////////////////////////////////
+
 @media screen and (max-width:(750px)){
     header nav{
         flex-direction: column;
@@ -128,7 +135,6 @@
         width: 100%;
         flex-direction: column;
         height: 45vh;
-        // 1370
     }
     #s-services article{
         width: 100%;
